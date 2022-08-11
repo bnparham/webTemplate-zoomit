@@ -1,0 +1,38 @@
+#right-side .card{
+    max-width: 250px;
+    font-family: "IranSans";
+    font-size: 12px;
+    border: none;
+}  
+
+#left-side .card{
+    max-width: 250px;
+    font-family: "IranSans";
+    font-size: 11px;
+    border: none;  
+}
+
+#left-side .card{
+    border-bottom: 1px solid #e5e5e5e1;
+}
+
+#right-side .card a , #left-side .card a{
+    color: #000;
+}
+
+#right-side .card-body{
+    text-align: right;
+}
+
+#left-side .card-body{
+    text-align: right;
+}
+
+#side-header{
+    text-align: right;
+    font-family: "IranSans";
+    font-weight: 600;
+    font-size: 14px;
+    background-color: #e5e5e5e1;
+    height: fit-content;
+}

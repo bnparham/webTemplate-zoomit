@@ -1,0 +1,101 @@
+#grid-item-row .row{
+    height: fit-content;
+}
+.slider{
+    height: 35vw;
+    max-height: 600px;
+    display: grid;
+    direction: rtl;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-auto-rows: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas: 
+    "post1 post1 post2"
+    "post1 post1 post2"
+    "post1 post1 post3"
+    "post4 post5 post3"
+    "post4 post5 post3"
+    ;
+    gap: 2px;
+}
+.tabligh{
+    height: 35vw;
+    max-height: 600px;
+    display: grid;  
+    grid-template-columns: 1fr;
+    grid-auto-rows: 1fr 1fr;
+    grid-template-areas: 
+    "post6"
+    "post7"
+    ;
+    gap: 2px;
+}
+
+#grid-item-row .row > *{
+    padding: 5px;
+}
+
+#slider-post-1{
+    grid-area: post1;
+}
+#slider-post-2{
+    grid-area: post2;
+}
+#slider-post-3{
+    grid-area: post3;
+}
+#slider-post-4{
+    grid-area: post4;
+}
+#slider-post-5{
+    grid-area: post5;
+}
+
+#tabligh-post-6{
+    grid-area: post6;
+}
+#tabligh-post-7{
+    grid-area: post7;
+}
+
+.slider-post{
+    background-size: cover;
+}
+
+.tabligh-post img{
+    width: 100%;
+    height: 100%;
+}
+
+.slider a{
+    padding-right: 5px;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    background-color: #00000039;
+    color: #fff;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: "IRANSans";
+    text-shadow: 0 1px 1px #000;
+}
+
+@media (max-width: 767.98px) { 
+    .slider{
+        height: 1000px;
+        max-height: 1600px !important;
+        grid-template-columns: 1fr;
+        grid-auto-rows: 1fr 1fr 1fr 1fr 1fr;
+        grid-template-areas: 
+        "post1"
+        "post2"
+        "post3"
+        "post4"
+        "post5"
+        ;
+    }
+    .tabligh{
+        display: none;
+    }
+ }
+ 

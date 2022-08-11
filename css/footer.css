@@ -1,0 +1,74 @@
+footer{
+    background-color: #313131;
+    font-family: "IranSans";
+}
+footer > .container > .row{
+    border-bottom: 2px solid #ababad;
+}
+footer h5{
+    font-size: 16px;
+    font-weight: bold;
+    font-family: "IranSans";
+}
+footer h6{
+    font-size: 13px;
+    font-family: "IranSans";
+}
+footer h5,h6{
+    color: #fff;
+    text-align: right;
+}
+footer .card{
+    background-color: transparent;
+    border: none;
+}
+footer .card-text{
+    font-size: 13px;
+    line-height: 30px;
+    color: #aaa;
+    text-align: right;
+}
+
+footer .card .col-4 a{
+    text-align: right;
+    color : #aaa;
+    font-size: 18px;
+    font-family: "B nazanin";
+}
+
+footer #footer-col-3 a , footer #footer-col-4 a{
+    text-align: right !important;
+    font-size: 16px;
+    font-family: "B nazanin"; 
+    font-weight: bold;
+    color : #aaa;
+    padding: 4px 0;
+}
+
+footer #footer-col-1 .card-body a:hover .card-text,
+footer #footer-col-2 .card-body a:hover .card-text
+{
+    color: #e51a2d;
+}
+
+footer #footer-col-3 a:hover,
+footer #footer-col-4 a:hover{
+    color : #e51a2d
+}
+
+#copyright{
+    background-color: #000;
+    color: #fff;
+    font-family: "iranSans";
+    font-size: 13px;
+}
+#copyright a{
+    color: #fff;
+}
+
+footer #brand {
+    text-align: right;
+}
+footer #brand img {
+    width: 150px;
+}

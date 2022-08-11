@@ -1,0 +1,54 @@
+#review #header{
+    color: #000;
+    font-family: "IranSans";
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.overlay-review-post a{
+    font-family: "IranSans";
+    text-align: right;
+    color: #fff;
+    text-shadow: 0 1px 1px #000;
+}
+.card-img-overlay{
+    background-color: #00000037;
+}
+
+.review-post .card{
+    font-family: "IranSans";
+    font-size: 12px;
+    background-color: transparent !important;
+    border: none;
+    text-align: right;
+}
+.review-post .card a{
+    color: #000;
+}
+.review-post .card a:hover{
+    color : #e51a2d
+}
+
+@media (max-width: 767.98px) { 
+
+    #review .review-post{
+        padding: 0 !important;
+    }
+    #review .review-post .card{
+        background-color: #fff !important;
+        border-bottom: 1px solid #ababad49;
+    }
+    #review .review-post .card a{
+        display: flex;
+        flex-direction: row-reverse;
+    }
+    #review .review-post .card .card-img-top{
+        width: fit-content;
+        padding: 10px;
+    }
+    #review .col-sm-12{
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+ }

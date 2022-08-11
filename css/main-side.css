@@ -1,0 +1,34 @@
+#main-side .card{
+    text-align: right;
+    font-family: "IranSans";
+    font-size: 12px;
+    border: none;  
+}
+
+#main-side .card{
+    border-bottom: 1px solid #e5e5e5e1;
+}
+
+#main-side .card a{
+    color: #000;
+}
+
+#main-side .card img{
+    width: 100%;
+}
+
+#main-side .card h5{
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 30px;
+}
+#main-side .card h6{
+    font-size: 11px;
+}
+#main-side .card .card-text{
+    font-size: 13px;
+    line-height: 25px;
+}
+#main-side .card .card-author{
+    color: #abaaaa;
+}

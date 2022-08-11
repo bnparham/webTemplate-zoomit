@@ -1,0 +1,13 @@
+body{
+    background-color: #f3f3f3;
+}
+
+
+@media (min-width: 1199.98px) { 
+    #body .col-lg-3{
+        width: 20.5%;
+    }
+    #body .col-lg-6{
+        width: 59%;
+    }
+ }

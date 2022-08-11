@@ -1,0 +1,9 @@
+zoomit web template with bootstrap 5
+crator : parham baradaran noveiry
+update : 8/11/2022
+
+includes :
+	version 1 {
+	- index page
+	- custom css and scripts files
+	}

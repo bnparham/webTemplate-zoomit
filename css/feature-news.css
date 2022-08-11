@@ -1,0 +1,52 @@
+#feature-news .row{
+    height: fit-content;
+}
+.news{
+    display: grid;
+    direction: rtl;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-auto-rows: 1fr;
+    grid-template-areas: 
+    "post1 post2 post3 post4 post5"
+    ;
+    gap: 10px;
+}
+#feature-news .row h3{
+    font-size: 20px;
+    font-family: "IranSans";
+}
+#news-post-1{
+   grid-area: post1;
+}
+#news-post-2{
+    grid-area: post2;
+}
+#news-post-3{
+    grid-area: post3;
+}
+#news-post-4{
+    grid-area: post4;
+}
+#news-post-5{
+    grid-area: post5;
+}
+#feature-news .card{
+    font-family: "IranSans";
+    font-size: 12px;
+    background-color: transparent !important;
+    border: none;
+}
+#feature-news .card a{
+    color: #000;
+}
+#feature-news .card-body{
+    padding-right: 0;
+}
+@media (max-width: 767.98px) { 
+    .news{
+        overflow-x: scroll;
+    }
+    #feature-news .card img{
+        min-width: 200px;
+    }
+}

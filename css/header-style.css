@@ -1,0 +1,89 @@
+/* --- header section --- */
+*{
+    list-style: none;
+    text-decoration: none !important;
+}
+header a{
+    color: #fff;
+    font-family: "IRANSans";
+}
+header a:hover{
+    color: #fff;
+}
+#hotMenu{
+    background-color: #242424;
+
+}
+#hotMenu a{
+    color : #aaa
+}
+#mainMenu{
+    background-color: #000;
+}
+#menuList{
+    background-color: #464646;
+}
+#trending{
+    margin-right: 10% !important;
+}
+header #brand{
+    width: 150px;
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+#menuList .container-fluid{
+    padding: 0;
+}
+
+#menuList a{
+    color: #ababad;
+}
+
+#menuList  .subMegaMenu{
+    border-bottom: 1px solid #ababad49;
+}
+#megaMenu{
+    background-color: #464646; 
+}
+#megaMenu li a{
+    color : #fff
+}
+#main-megaMenu{
+    top: 74px;
+    right: 10px;
+    text-align: right;
+    background-color: #fff;
+    border: 1px solid #000;
+    width: 100px;
+}
+#main-megaMenu li a{
+    color: #000;
+    font-size: 11px;
+}
+.main-subMegaMenu{
+    cursor: pointer;
+}
+
+#login-register{
+    background-color: #505050;
+}
+#login-register a{
+    color: #e5e5e5;
+}
+#login-register a:hover{
+    color: red;
+}
+
+#social-icons #wrapper a{
+    background-color: #505050; 
+    width: 25%;
+    padding: 25px;
+    text-align: center;
+    border-top: 1px solid #e5e5e58c;
+    border-left: 1px solid #e5e5e58c;
+    color: #e5e5e5;
+    font-size: 30px;
+}
